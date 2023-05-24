@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- TODO:15- Do not forget <IDOCTYPE html>, <html lang= "en"> and <meta charset=" UTF-8">   -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <div class="user">
+        <img src="images/pngkit_nature-icon-png_5084521.png" alt="profile image" />
+        <!-- TODO:4- Image with alt attribute - for every image used -->
+        <h3 class="name">Manisha</h3>
+        <p class="post">University Student</p>
+      </div>
+
+      <!--  TODO:2- Navigation links (internal and external)  -->
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#portfolio">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      
+      <h3>Hi There !</h3>
+      <h1>I'm <span> Manisha</span></h1>
+      <!-- TODO:17-Any other HIM elements we mentioned in our lectures like. <or> chr> storm>
+        TODO:18- Responsive Design techniques: scalable images/download.jpeg fluid design. Apply both techniques
+        at any page vou rind it suitable. It you want to use media queries ut is your choice -->
+      <p id="dots">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat,
+        massa in tincidunt consectetur, tortor nunc ultrices mi,...
+      </p>
+      <div id="more">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          consequat, massa in tincidunt consectetur, tortor nunc ultrices mi, id
+          vestibulum justo elit a justo. Pellentesque habitant morbi tristique
+          senectus et netus et malesuada fames ac turpis egestas. Proin
+          dignissim consectetur felis, a eleifend erat mattis at. Quisque eu
+          lobortis risus. Nunc sed tortor fringilla, pulvinar eros vel, pharetra
+          turpis. In eleifend, massa nec consectetur consectetur, nulla diam
+          scelerisque mauris, id varius neque dolor non massa. Suspendisse posu
+        </p>
+        <!-- TODO:3- Lists (ordered and unordered)-->
+        <h2>Expertise & Self Learning Skills:</h2>
+
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+
+        <h2>Courses:</h2>
+
+        <h2>Software related-</h2>
+
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+
+        <h2>Networking related-</h2>
+
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+
+        <h2>Hardware related-</h2>
+
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+
+        <h2>Computer Science related-</h2>
+
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+        <li>Lorem ipsum dolor sit amet, conse</li>
+
+        <p>
+          I want to work in a conductive environment where hard work and honest
+          efforts are appreciated and rewarded.
+        </p>
+      </div>
+      <a
+        ><button class="btn" onclick="myFunction()" id="myBtn">
+          Read More<i class="fas fa-user"></i></button
+      ></a>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span> Me</h1>
+
+      <div class="row">
+        <div class="info">
+          <!--  TODO:1- A table - to display your CV  -->
+          <h3><span> Name : </span> Manisha</h3>
+          <h3><span> Age : </span> 20</h3>
+          <h3>
+            <span> Qualification : </span> Bs Degree
+          </h3>
+          <h3><span> Post : </span>Empleyee</h3>
+          <h3><span> Language : </span> English - Urdu -Punjabi</h3>
+          <a href="CV/mypdf.pdf"
+            ><button class="btn">
+              Download Resume <i class="fas fa-download"></i></button
+          ></a>
+        </div>
+
+        <div class="counter">
+          <div class="box">
+            <span>2+</span>
+            <h3>years of experience</h3>
+          </div>
+
+          <div class="box">
+            <span>0+</span>
+            <h3>project completed</h3>
+          </div>
+
+          <div class="box">
+            <span>0+</span>
+            <h3>awards won</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education" id="education">
+      <h1 class="heading">My <span>Education</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2019-2023</span>
+          <h3>BS Class detail</h3>
+          <p>From - name here-- University</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>ANNUAL 2019</span>
+          <h3>Class detail</h3>
+          <p>ame here ertificate examination From - schoool detail</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>ANNUAL 2017</span>
+          <h3>Class - Science</h3>
+          <p>name here ertificate examination From - schoool detail</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- education section ends -->
+    <!-- experience  section starts  -->
+
+    <section class="education" id="experience">
+      <h1 class="heading">My <span>Experience</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Experience-present</span>
+          <h3>Experience job title</h3>
+          <p>where Experience job</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Experience-present</span>
+          <h3>Experience job title</h3>
+          <p>where Experience job</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Experience-present</span>
+          <h3>Experience job title</h3>
+          <p>where Experience job</p>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section starts  -->
+
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading">My <span>Certificates</span></h1>
+      <div class="box-container" id="hide">
+        <div class="box">
+          <a href="images/download.jpeg">
+            <img src="images/download.jpeg" alt="-user images certificate  "
+          /></a>
+        </div>
+
+        <div class="box">
+          <a href="images/download.jpeg">
+            <img src="images/download.jpeg" alt="Puser images certificate"
+          /></a>
+        </div>
+
+        <div class="box">
+          <a href="images/download.jpeg">
+            <img src="images/download.jpeg" alt="user images certificate"
+          /></a>
+        </div>
+      </div>
+
+      <div class="box-container" id="show" style="display: none">
+        <div class="box">
+          <a href="images/download.jpeg">
+            <img src="images/download.jpeg" alt="-user images certificate "
+          /></a>
+        </div>
+
+        <div class="box">
+          <a href="images/download.jpeg">
+            <img
+              src="images/download.jpeg"
+              alt="Python Course From Basic to Advanced - Udemy"
+          /></a>
+        </div>
+
+        <div class="box">
+          <a href="images/download.jpeg">
+            <img src="images/download.jpeg" alt="user images certificate"
+          /></a>
+        </div>
+
+        <div class="box">
+          <a href="images/download.jpeg">
+            <img src="images/download.jpeg" alt="user images certificate"
+          /></a>
+        </div>
+      </div>
+      <button
+        class="btn"
+        onclick="myGalFunction()"
+        id="myBtn1"
+        style="margin-left: 15rem"
+      >
+        See more
+      </button>
+    </section>
+
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contact</span> Me</h1>
+
+      <div class="row">
+        <div class="content">
+          <h3 class="title">Contact Info</h3>
+
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i> nmanisha3010@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i> 07867067081</h3>
+            <h3>
+              <i class="fas fa-map-marker-alt"></i>18 Cambridge close, Hounslow
+              . United Kingdom TW47BG
+            </h3>
+          </div>
+        </div>
+
+        <!-- TODO:19-Javascript form validation - users should not leave anv form field blank frequired
+    attribute is NOT allowed
+    TODO:20- Reflective writing -->
+        <form action="https://formspree.io/f/moqzlpao" method="POST">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="name"
+            class="box"
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="email"
+            class="box"
+          />
+          <input name="Project" type="text" placeholder="Subject" class="box" />
+          <textarea
+            id="message"
+            name="message"
+            required
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="message"
+          ></textarea>
+          <input type="hidden" name="_replyto" value="nmanisha3010@gmail.com" />
+          <button name="submit" type="submit" value="Submit" class="btn">
+            send <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- scroll top button  -->
+
+    <a href="#home" class="top">
+      <img src="images/scroll-top-img.png" alt="Scrolling images icon" />
+    </a>
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+    <!--footer-->
+
+    <!-- TODO:16-Adding headers and footers to organise the layout of your pages -->
+    <footer
+      class="text-white-600 body-font"
+      style="height: 100%; background-color: rgb(12, 11, 11)"
+    >
+      <div class="bg-grey-50">
+        <div
+          class="container px-5 py-10 mx-auto flex items-center sm:flex-row flex-col"
+        >
+          <p class="text-lg text-gray-500 sm:ml-6 sm:mt-0 mt-4">
+            © 2023 manisha
+            <a
+              href="https://twitter.com/"
+              rel="noopener noreferrer"
+              class="text-white-600 ml-1"
+              target="_blank"
+              >@nmanisha</a
+            >
+          </p>
+          <span
+            class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+          >
+            <a class="text-gray-500" href="https://web.facebook.com/">
+              <svg
+                fill="white"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="5"
+                class="mr-12 w-10 h-10"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500" href="https://twitter.com/">
+              <svg
+                fill="white"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="5"
+                class="w-10 h-10 mr-12"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+                ></path>
+              </svg>
+            </a>
+
+            <a class="ml-3 text-gray-500" href="https://www.linkedin.com/">
+              <svg
+                fill="white"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="5"
+                class="mr-0 w-10 h-10"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="none"
+                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                ></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+      function myGalFunction() {
+        var dots = document.getElementById("hide");
+        var moreText = document.getElementById("show");
+        var btnText = document.getElementById("myBtn1");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "flex";
+          btnText.innerHTML = "See more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "See less";
+          moreText.style.display = "flex";
+        }
+      }
+    </script>
+  </body>
+</html>
